@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elisha| Software Engineer · Full-Stack Developer</title>
+    <title>Elijah | Software Engineer · Full-Stack Developer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
@@ -17,7 +17,7 @@
 
         body {
             font-family: 'Inter', sans-serif;
-            background: #05050a;
+            background: #0a0e17;
             color: #ffffff;
             scroll-behavior: smooth;
             overflow-x: hidden;
@@ -31,7 +31,7 @@
             width: 100%;
             height: 100%;
             z-index: -2;
-            background: radial-gradient(ellipse at 20% 30%, #1a1a3e, #05050a);
+            background: radial-gradient(ellipse at 20% 30%, #1a2a4a, #0a0e17);
         }
 
         .gradient-bg::before {
@@ -41,7 +41,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: radial-gradient(circle at 70% 80%, rgba(245, 158, 11, 0.08), transparent 50%);
+            background: radial-gradient(circle at 70% 80%, rgba(0, 200, 255, 0.08), transparent 50%);
             animation: pulse 8s ease-in-out infinite;
         }
 
@@ -63,7 +63,7 @@
 
         .particle {
             position: absolute;
-            background: rgba(245, 158, 11, 0.3);
+            background: rgba(0, 200, 255, 0.3);
             border-radius: 50%;
             animation: float 15s infinite linear;
         }
@@ -77,28 +77,28 @@
 
         /* Custom Scrollbar */
         ::-webkit-scrollbar { width: 6px; }
-        ::-webkit-scrollbar-track { background: #1a1a2e; }
-        ::-webkit-scrollbar-thumb { background: #f59e0b; border-radius: 3px; }
+        ::-webkit-scrollbar-track { background: #1a2a4a; }
+        ::-webkit-scrollbar-thumb { background: #00c8ff; border-radius: 3px; }
 
         /* Navigation */
         .navbar {
             position: fixed;
             top: 0;
             width: 100%;
-            background: rgba(5, 5, 10, 0.95);
+            background: rgba(10, 14, 23, 0.95);
             backdrop-filter: blur(12px);
             padding: 18px 5%;
             display: flex;
             justify-content: space-between;
             align-items: center;
             z-index: 1000;
-            border-bottom: 1px solid rgba(245, 158, 11, 0.15);
+            border-bottom: 1px solid rgba(0, 200, 255, 0.15);
         }
 
         .logo {
             font-size: 24px;
             font-weight: 800;
-            background: linear-gradient(135deg, #ffffff, #f59e0b);
+            background: linear-gradient(135deg, #ffffff, #00c8ff);
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
@@ -125,7 +125,7 @@
             left: 0;
             width: 0;
             height: 2px;
-            background: #f59e0b;
+            background: #00c8ff;
             transition: width 0.3s;
         }
 
@@ -135,7 +135,7 @@
         }
 
         .nav-links a:hover {
-            color: #f59e0b;
+            color: #00c8ff;
         }
 
         /* Hero Section */
@@ -153,12 +153,12 @@
 
         .hero-badge {
             display: inline-block;
-            background: rgba(245, 158, 11, 0.15);
-            border: 1px solid rgba(245, 158, 11, 0.3);
+            background: rgba(0, 200, 255, 0.15);
+            border: 1px solid rgba(0, 200, 255, 0.3);
             padding: 6px 16px;
             border-radius: 40px;
             font-size: 13px;
-            color: #f59e0b;
+            color: #00c8ff;
             margin-bottom: 24px;
         }
 
@@ -170,7 +170,7 @@
         }
 
         .hero h1 span {
-            background: linear-gradient(135deg, #f59e0b, #ffb347);
+            background: linear-gradient(135deg, #00c8ff, #00e8a0);
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
@@ -178,7 +178,7 @@
 
         .hero p {
             font-size: 18px;
-            color: #a0a0c0;
+            color: #a0b0c0;
             line-height: 1.6;
             margin-bottom: 32px;
         }
@@ -190,8 +190,8 @@
         }
 
         .btn-primary {
-            background: linear-gradient(135deg, #f59e0b, #e67e22);
-            color: #05050a;
+            background: linear-gradient(135deg, #00c8ff, #00e8a0);
+            color: #0a0e17;
             padding: 14px 32px;
             border: none;
             border-radius: 40px;
@@ -204,13 +204,13 @@
 
         .btn-primary:hover {
             transform: translateY(-2px);
-            box-shadow: 0 10px 25px -5px rgba(245, 158, 11, 0.4);
+            box-shadow: 0 10px 25px -5px rgba(0, 200, 255, 0.4);
         }
 
         .btn-outline {
             background: transparent;
-            border: 1px solid rgba(245, 158, 11, 0.5);
-            color: #f59e0b;
+            border: 1px solid rgba(0, 200, 255, 0.5);
+            color: #00c8ff;
             padding: 14px 32px;
             border-radius: 40px;
             font-weight: 600;
@@ -221,9 +221,9 @@
         }
 
         .btn-outline:hover {
-            background: rgba(245, 158, 11, 0.1);
+            background: rgba(0, 200, 255, 0.1);
             transform: translateY(-2px);
-            border-color: #f59e0b;
+            border-color: #00c8ff;
         }
 
         /* Stats Section */
@@ -247,12 +247,12 @@
         .stat-number {
             font-size: 42px;
             font-weight: 800;
-            color: #f59e0b;
+            color: #00c8ff;
         }
 
         .stat-label {
             font-size: 14px;
-            color: #a0a0c0;
+            color: #a0b0c0;
             margin-top: 8px;
         }
 
@@ -270,11 +270,11 @@
 
         .section-tag {
             display: inline-block;
-            background: rgba(245, 158, 11, 0.1);
+            background: rgba(0, 200, 255, 0.1);
             padding: 4px 12px;
             border-radius: 20px;
             font-size: 12px;
-            color: #f59e0b;
+            color: #00c8ff;
             margin-bottom: 16px;
         }
 
@@ -284,11 +284,11 @@
         }
 
         .section-title span {
-            color: #f59e0b;
+            color: #00c8ff;
         }
 
         .section-subtitle {
-            color: #a0a0c0;
+            color: #a0b0c0;
             font-size: 18px;
             margin-top: 16px;
         }
@@ -301,23 +301,23 @@
         }
 
         .project-card {
-            background: rgba(26, 26, 46, 0.6);
+            background: rgba(26, 42, 74, 0.6);
             backdrop-filter: blur(10px);
             border-radius: 24px;
             overflow: hidden;
             transition: all 0.4s;
-            border: 1px solid rgba(245, 158, 11, 0.1);
+            border: 1px solid rgba(0, 200, 255, 0.1);
         }
 
         .project-card:hover {
             transform: translateY(-8px);
-            border-color: rgba(245, 158, 11, 0.3);
+            border-color: rgba(0, 200, 255, 0.3);
             box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.3);
         }
 
         .project-image {
             height: 200px;
-            background: linear-gradient(135deg, #2d2d44, #1a1a2e);
+            background: linear-gradient(135deg, #1a2a4a, #0a0e17);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -333,7 +333,7 @@
             left: -100%;
             width: 100%;
             height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(245, 158, 11, 0.1), transparent);
+            background: linear-gradient(90deg, transparent, rgba(0, 200, 255, 0.1), transparent);
             transition: left 0.5s;
         }
 
@@ -348,8 +348,8 @@
         .project-category {
             display: inline-block;
             padding: 4px 12px;
-            background: rgba(245, 158, 11, 0.15);
-            color: #f59e0b;
+            background: rgba(0, 200, 255, 0.15);
+            color: #00c8ff;
             border-radius: 20px;
             font-size: 11px;
             margin-bottom: 12px;
@@ -362,7 +362,7 @@
         }
 
         .project-description {
-            color: #a0a0c0;
+            color: #a0b0c0;
             font-size: 14px;
             line-height: 1.6;
             margin-bottom: 20px;
@@ -380,16 +380,17 @@
             padding: 4px 10px;
             border-radius: 12px;
             font-size: 11px;
-            color: #a0a0c0;
+            color: #a0b0c0;
         }
 
         .project-links {
             display: flex;
             gap: 20px;
+            flex-wrap: wrap;
         }
 
         .project-links a {
-            color: #f59e0b;
+            color: #00c8ff;
             text-decoration: none;
             font-size: 14px;
             font-weight: 500;
@@ -403,6 +404,12 @@
             opacity: 0.8;
         }
 
+        .live-demo {
+            background: rgba(0, 200, 255, 0.15);
+            padding: 6px 12px;
+            border-radius: 20px;
+        }
+
         /* Skills Grid */
         .skills-grid {
             display: grid;
@@ -412,18 +419,18 @@
         }
 
         .skill-card {
-            background: rgba(26, 26, 46, 0.6);
+            background: rgba(26, 42, 74, 0.6);
             backdrop-filter: blur(10px);
             padding: 25px;
             border-radius: 20px;
             text-align: center;
             transition: all 0.3s;
-            border: 1px solid rgba(245, 158, 11, 0.1);
+            border: 1px solid rgba(0, 200, 255, 0.1);
         }
 
         .skill-card:hover {
             transform: translateY(-3px);
-            border-color: rgba(245, 158, 11, 0.3);
+            border-color: rgba(0, 200, 255, 0.3);
         }
 
         .skill-icon {
@@ -445,22 +452,22 @@
         }
 
         .testimonial-card {
-            background: rgba(26, 26, 46, 0.6);
+            background: rgba(26, 42, 74, 0.6);
             backdrop-filter: blur(10px);
             padding: 30px;
             border-radius: 20px;
-            border: 1px solid rgba(245, 158, 11, 0.1);
+            border: 1px solid rgba(0, 200, 255, 0.1);
             transition: all 0.3s;
         }
 
         .testimonial-card:hover {
-            border-color: rgba(245, 158, 11, 0.3);
+            border-color: rgba(0, 200, 255, 0.3);
         }
 
         .testimonial-text {
             font-size: 15px;
             line-height: 1.6;
-            color: #c0c0d0;
+            color: #c0d0e0;
             margin-bottom: 20px;
             font-style: italic;
         }
@@ -474,7 +481,7 @@
         .testimonial-avatar {
             width: 45px;
             height: 45px;
-            background: linear-gradient(135deg, #f59e0b, #e67e22);
+            background: linear-gradient(135deg, #00c8ff, #00e8a0);
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -488,13 +495,13 @@
 
         .testimonial-title {
             font-size: 12px;
-            color: #a0a0c0;
+            color: #a0b0c0;
         }
 
         /* Contact Section */
         .contact-section {
             text-align: center;
-            background: linear-gradient(135deg, rgba(245, 158, 11, 0.05), transparent);
+            background: linear-gradient(135deg, rgba(0, 200, 255, 0.05), transparent);
             border-radius: 40px;
             margin: 0 5% 60px;
             padding: 60px;
@@ -509,7 +516,7 @@
         }
 
         .contact-btn {
-            background: rgba(26, 26, 46, 0.8);
+            background: rgba(26, 42, 74, 0.8);
             padding: 14px 28px;
             border-radius: 40px;
             text-decoration: none;
@@ -518,13 +525,13 @@
             align-items: center;
             gap: 10px;
             transition: all 0.3s;
-            border: 1px solid rgba(245, 158, 11, 0.2);
+            border: 1px solid rgba(0, 200, 255, 0.2);
         }
 
         .contact-btn:hover {
             transform: translateY(-2px);
-            border-color: #f59e0b;
-            background: rgba(245, 158, 11, 0.1);
+            border-color: #00c8ff;
+            background: rgba(0, 200, 255, 0.1);
         }
 
         /* Footer */
@@ -593,7 +600,7 @@
 
     <!-- Navigation -->
     <nav class="navbar">
-        <div class="logo">iTechSoft Systems SOLUTIONS</div>
+        <div class="logo">ElijahDev</div>
         <button class="menu-btn" onclick="toggleMenu()">☰</button>
         <div class="nav-links" id="navLinks">
             <a href="#home" class="active">Home</a>
@@ -611,7 +618,7 @@
                 <i class="fas fa-code"></i> Full-Stack Developer
             </div>
             <h1>Building <span>Digital Solutions</span><br>That Transform Businesses</h1>
-            <p>I craft custom software systems for schools, hospitals, and enterprises. 17+ successful projects delivered with precision and excellence.</p>
+            <p>I craft custom software systems for schools, hospitals, and enterprises across Ghana. 17+ successful projects delivered with precision and excellence.</p>
             <div class="hero-buttons">
                 <a href="#projects" class="btn-primary">View Portfolio</a>
                 <a href="#contact" class="btn-outline">Let's Talk</a>
@@ -640,8 +647,8 @@
         <div class="section-header">
             <div class="section-tag">PORTFOLIO</div>
             <h2 class="section-title">Featured <span>Projects</span></h2>
-            <p class="section-subtitle">Real solutions that solved real business problems.</p>
-        <p class="section-subtitle"></p>
+            <p class="section-subtitle">Real solutions that solved real business problems</p>
+        </div>
         <div class="projects-grid" id="projectsGrid"></div>
     </section>
 
@@ -667,17 +674,15 @@
 
     <!-- Contact Section -->
     <section id="contact" class="contact-section">
-        <div class="section-tag" style="background: rgba(245,158,11,0.15); display: inline-block;">GET IN TOUCH</div>
+        <div class="section-tag" style="background: rgba(0,200,255,0.15); display: inline-block;">GET IN TOUCH</div>
         <h2 class="section-title" style="margin-top: 20px;">Let's Work <span>Together</span></h2>
         <p class="section-subtitle">Have a project in mind? Let's discuss how I can help bring your vision to life.</p>
-        <p class="section-subtitle">CONTACT HOT LINE: 059 190 6224</p>
-        
         <div class="contact-buttons" id="contactButtons"></div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <p>© 2025 ElishaDev | Crafting digital excellence from Ghana</p>
+        <p>© 2025 Elijah Dev | Crafting digital excellence from Ghana</p>
     </footer>
 
     <script>
@@ -698,14 +703,68 @@
         }
         createParticles();
 
-        // Projects Data
+        // Projects Data - UPDATE YOUR LIVE DEMO URLs HERE
         const projects = [
-            { id: 1, title: "School Management System", description: "Complete school management with SBA entry, report card generation, Admin and Teacher portals. Live at Living Spring Academy.", category: "Education", technologies: ["Node.js", "Express", "PostgreSQL"], icon: "🏫", liveUrl: "#", demo: true },
-            { id: 2, title: "Medical Supply Chain System", description: "End-to-end medical inventory tracking from Regional/District stores to Main Store to Dispensary to Patient.", category: "Healthcare", technologies: ["Node.js", "Express", "PostgreSQL"], icon: "🏥", liveUrl: "https://medical-supply-chain.onrender.com", demo: true },
-            { id: 3, title: "Payroll Management System", description: "Complete payroll with employee management, salary structure, deductions, payslip generation, and reports.", category: "Business", technologies: ["Node.js", "Express", "PostgreSQL", "Chart.js"], icon: "💰", liveUrl: "#", demo: true },
-            { id: 4, title: "Business CRM System", description: "Full CRM with contact management, proposal tracking, WhatsApp integration, business search, and lead management.", category: "Business", technologies: ["Node.js", "Express", "PostgreSQL", "Geoapify"], icon: "📞", liveUrl: "#", demo: true },
-            { id: 5, title: "Hospital Management System", description: "Hospital system handling patients, appointments, billing, prescriptions, and medical records.", category: "Healthcare", technologies: ["Node.js", "Express", "PostgreSQL"], icon: "🏥", liveUrl: "#", demo: false },
-            { id: 6, title: "e-Learning Platform", description: "Online learning with course management, quizzes, student progress tracking, and certificates.", category: "Education", technologies: ["Node.js", "Express", "PostgreSQL"], icon: "📚", liveUrl: "#", demo: false }
+            { 
+                id: 1, 
+                title: "School Management System", 
+                description: "Complete school management with SBA entry, report card generation, Admin and Teacher portals. Live at Living Spring Academy.",
+                category: "Education", 
+                technologies: ["Node.js", "Express", "PostgreSQL"], 
+                icon: "🏫", 
+                liveUrl: "https://your-school-system.onrender.com",  // ← UPDATE THIS
+                demo: true 
+            },
+            { 
+                id: 2, 
+                title: "Medical Supply Chain System", 
+                description: "End-to-end medical inventory tracking from Regional/District stores to Main Store to Dispensary to Patient.",
+                category: "Healthcare", 
+                technologies: ["Node.js", "Express", "PostgreSQL"], 
+                icon: "🏥", 
+                liveUrl: "https://your-medical-system.onrender.com",  // ← UPDATE THIS
+                demo: true 
+            },
+            { 
+                id: 3, 
+                title: "Payroll Management System", 
+                description: "Complete payroll with employee management, salary structure, deductions, payslip generation, and reports.",
+                category: "Business", 
+                technologies: ["Node.js", "Express", "PostgreSQL", "Chart.js"], 
+                icon: "💰", 
+                liveUrl: "https://your-payroll-system.onrender.com",  // ← UPDATE THIS
+                demo: true 
+            },
+            { 
+                id: 4, 
+                title: "Business CRM System", 
+                description: "Full CRM with contact management, proposal tracking, WhatsApp integration, business search, and lead management.",
+                category: "Business", 
+                technologies: ["Node.js", "Express", "PostgreSQL", "Geoapify"], 
+                icon: "📞", 
+                liveUrl: "https://your-crm-system.onrender.com",  // ← UPDATE THIS
+                demo: true 
+            },
+            { 
+                id: 5, 
+                title: "Hospital Management System", 
+                description: "Hospital system handling patients, appointments, billing, prescriptions, and medical records.",
+                category: "Healthcare", 
+                technologies: ["Node.js", "Express", "PostgreSQL"], 
+                icon: "🏥", 
+                liveUrl: "#", 
+                demo: false 
+            },
+            { 
+                id: 6, 
+                title: "e-Learning Platform", 
+                description: "Online learning with course management, quizzes, student progress tracking, and certificates.",
+                category: "Education", 
+                technologies: ["Node.js", "Express", "PostgreSQL"], 
+                icon: "📚", 
+                liveUrl: "#", 
+                demo: false 
+            }
         ];
 
         // Skills Data
@@ -717,16 +776,16 @@
 
         // Testimonials Data
         const testimonials = [
-            { name: "John Mensah", role: "School Director", text: "Elisha built our school management system and it has transformed how we handle report cards. The system is reliable and support is excellent.", avatar: "JM" },
+            { name: "John Mensah", role: "School Director", text: "Elijah built our school management system and it has transformed how we handle report cards. The system is reliable and support is excellent.", avatar: "JM" },
             { name: "Dr. Ama Serwaa", role: "Hospital Administrator", text: "The medical supply chain system has helped us track our inventory accurately. No more expired drugs going unnoticed. Highly recommended!", avatar: "AS" },
             { name: "Michael Ofori", role: "Business Owner", text: "Professional, responsive, and delivered exactly what we needed. The CRM system has helped us manage our clients better.", avatar: "MO" }
         ];
 
         // Contact Buttons
         const contactButtons = [
-            { icon: "fa-envelope", text: "Email Me", link: "mailto:itechminifx@gmail.com", color: "#f59e0b" },
-            { icon: "fa-phone", text: "Call Me", link: "tel:+233591906224", color: "#10b981" },
-            { icon: "fa-whatsapp", text: "WhatsApp", link: "https://wa.me/233591906224", color: "#25D366" },
+            { icon: "fa-envelope", text: "Email Me", link: "mailto:elijah@softsystemsolutions.com", color: "#00c8ff" },
+            { icon: "fa-phone", text: "Call Me", link: "tel:+233241234567", color: "#10b981" },
+            { icon: "fa-whatsapp", text: "WhatsApp", link: "https://wa.me/233241234567", color: "#25D366" },
             { icon: "fa-github", text: "GitHub", link: "https://github.com/itechminifx-debug", color: "#ffffff" }
         ];
 
@@ -741,7 +800,8 @@
                         <p class="project-description">${p.description}</p>
                         <div class="project-tech">${p.technologies.map(t => `<span class="tech-tag">${t}</span>`).join('')}</div>
                         <div class="project-links">
-                            ${p.demo ? `<a href="#" onclick="requestDemo('${p.title}')"><i class="fab fa-whatsapp"></i> Request Demo</a>` : ''}
+                            ${p.liveUrl && p.liveUrl !== '#' ? `<a href="${p.liveUrl}" target="_blank" class="live-demo"><i class="fas fa-external-link-alt"></i> Live Demo</a>` : ''}
+                            <a href="#" onclick="requestDemo('${p.title}')"><i class="fab fa-whatsapp"></i> Request Demo</a>
                         </div>
                     </div>
                 </div>
@@ -784,8 +844,8 @@
         }
 
         function requestDemo(projectName) {
-            const message = `Hello Elisha, I'm interested in a demo of your ${projectName}. Could you please schedule a time to show me?`;
-            window.open(`https://wa.me/2330591906224?text=${encodeURIComponent(message)}`, '_blank');
+            const message = `Hello Elijah, I'm interested in a demo of your ${projectName}. Could you please schedule a time to show me?`;
+            window.open(`https://wa.me/233241234567?text=${encodeURIComponent(message)}`, '_blank');
         }
 
         function toggleMenu() {
